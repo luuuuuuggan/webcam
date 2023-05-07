@@ -90,6 +90,7 @@ function draw() {
   pointLight(0, 0, 255, locX, locY, 250);
   
   //background(200);
+  scale(windowWidth/1000);
   
   
   texture(bg);
